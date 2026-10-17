@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041BA4C75EE7E285063E27BF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D4A506A403529F3E5B327833 /* PrivacyInfo.xcprivacy */; };
+		0A144C0FF400032644F1C2E2 /* MetronomeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0583F4AAD5304D5E91FB5AAF /* MetronomeEngine.swift */; };
+		215277B33BBC539520C693AA /* HoppyBeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C077D3A72C0DFAB6F46537 /* HoppyBeatUITests.swift */; };
+		2751330214C8699975BBBB3E /* SoundSynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531FC939FEED623DE0E5EF89 /* SoundSynth.swift */; };
+		32AFDAC4773F1224280863A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EB2119A264BBDB73C2367C /* Assets.xcassets */; };
+		37D3D25223071016CA46429B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EFB6CFA88C3A61140CA6E7 /* RootView.swift */; };
+		6C8E98D5D9FB40280F79D93E /* CelebrationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ACF38483E54B87813E727F /* CelebrationOverlay.swift */; };
+		8532AEBFA9D158BC14FE8C2E /* PondStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CABEB3198718AC8E6255C3 /* PondStage.swift */; };
+		B57329487C6FDDDBEBC69E73 /* FrogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57C61DD10CF2C67B6351EC /* FrogView.swift */; };
+		BE8B921CFFDCEA1BA03C31D9 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA02D02DA2CA3EAAA2AEC7 /* Catalog.swift */; };
+		C681D738953575BF02CADDA3 /* HoppyBeatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEF96560B0EDA7EDBD4C58 /* HoppyBeatApp.swift */; };
+		CE1D33C81317443024920E71 /* BeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62585233FCBA9AD8EFD75CC4 /* BeatModel.swift */; };
+		D73E1AB2FEF69F12F9E9BEFE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829D6C350931253B66D38867 /* Theme.swift */; };
+		E3C5EF5F0C02EBD8746A4F5A /* VoiceCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09AC0274C704356AE99AB3 /* VoiceCounter.swift */; };
+		E672723C62E05D522261FC79 /* StageHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70292DC6011E373E8275F28A /* StageHUD.swift */; };
+		F56AB8607EE34D4DA6104709 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6035E5CF9F91CD64854B5A /* Controls.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF87F0BD853D88AFDA54F8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904BC029DF0B97E6AC5511A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1524C27250735BD8F8FD68;
+			remoteInfo = HoppyBeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0583F4AAD5304D5E91FB5AAF /* MetronomeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeEngine.swift; sourceTree = "<group>"; };
+		36EB2119A264BBDB73C2367C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46AA02D02DA2CA3EAAA2AEC7 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		531FC939FEED623DE0E5EF89 /* SoundSynth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSynth.swift; sourceTree = "<group>"; };
+		58DB76CE4CABA0807A91C1D1 /* HoppyBeatUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HoppyBeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62585233FCBA9AD8EFD75CC4 /* BeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatModel.swift; sourceTree = "<group>"; };
+		70292DC6011E373E8275F28A /* StageHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageHUD.swift; sourceTree = "<group>"; };
+		829D6C350931253B66D38867 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		92EEF96560B0EDA7EDBD4C58 /* HoppyBeatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBeatApp.swift; sourceTree = "<group>"; };
+		98C077D3A72C0DFAB6F46537 /* HoppyBeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoppyBeatUITests.swift; sourceTree = "<group>"; };
+		9A09AC0274C704356AE99AB3 /* VoiceCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCounter.swift; sourceTree = "<group>"; };
+		A0ACF38483E54B87813E727F /* CelebrationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationOverlay.swift; sourceTree = "<group>"; };
+		D4A506A403529F3E5B327833 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D987891E291862CEF7FB753B /* HoppyBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6035E5CF9F91CD64854B5A /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		DF57C61DD10CF2C67B6351EC /* FrogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogView.swift; sourceTree = "<group>"; };
+		E3EFB6CFA88C3A61140CA6E7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F8CABEB3198718AC8E6255C3 /* PondStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondStage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1EAE6BE89EAFED157E16AB16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0ACF38483E54B87813E727F /* CelebrationOverlay.swift */,
+				DC6035E5CF9F91CD64854B5A /* Controls.swift */,
+				DF57C61DD10CF2C67B6351EC /* FrogView.swift */,
+				F8CABEB3198718AC8E6255C3 /* PondStage.swift */,
+				E3EFB6CFA88C3A61140CA6E7 /* RootView.swift */,
+				70292DC6011E373E8275F28A /* StageHUD.swift */,
+				829D6C350931253B66D38867 /* Theme.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E1C282AFE8FA9F66C8A1989 /* HoppyBeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98C077D3A72C0DFAB6F46537 /* HoppyBeatUITests.swift */,
+			);
+			path = HoppyBeatUITests;
+			sourceTree = "<group>";
+		};
+		8AFB974EB86CB3968A181A6A /* HoppyBeat */ = {
+			isa = PBXGroup;
+			children = (
+				36EB2119A264BBDB73C2367C /* Assets.xcassets */,
+				92EEF96560B0EDA7EDBD4C58 /* HoppyBeatApp.swift */,
+				D4A506A403529F3E5B327833 /* PrivacyInfo.xcprivacy */,
+				C591154801F0DBE3FAC524B8 /* Audio */,
+				8F6DCBC3F37C741BF1F5B6FC /* Model */,
+				1EAE6BE89EAFED157E16AB16 /* Views */,
+			);
+			path = HoppyBeat;
+			sourceTree = "<group>";
+		};
+		8F6DCBC3F37C741BF1F5B6FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62585233FCBA9AD8EFD75CC4 /* BeatModel.swift */,
+				46AA02D02DA2CA3EAAA2AEC7 /* Catalog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1020BFC9DEEE51483470D0F = {
+			isa = PBXGroup;
+			children = (
+				8AFB974EB86CB3968A181A6A /* HoppyBeat */,
+				5E1C282AFE8FA9F66C8A1989 /* HoppyBeatUITests */,
+				A2993A540DDCBBA8BE98BA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2993A540DDCBBA8BE98BA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D987891E291862CEF7FB753B /* HoppyBeat.app */,
+				58DB76CE4CABA0807A91C1D1 /* HoppyBeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C591154801F0DBE3FAC524B8 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0583F4AAD5304D5E91FB5AAF /* MetronomeEngine.swift */,
+				531FC939FEED623DE0E5EF89 /* SoundSynth.swift */,
+				9A09AC0274C704356AE99AB3 /* VoiceCounter.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6C1EAB1EC290A92FC48A98 /* HoppyBeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EEBF28BE023114E22D2206 /* Build configuration list for PBXNativeTarget "HoppyBeatUITests" */;
+			buildPhases = (
+				51A02CBBBB3D6B58AFCB6511 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EAD6874BAAB41F91A4E5EB /* PBXTargetDependency */,
+			);
+			name = HoppyBeatUITests;
+			packageProductDependencies = (
+			);
+			productName = HoppyBeatUITests;
+			productReference = 58DB76CE4CABA0807A91C1D1 /* HoppyBeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ED1524C27250735BD8F8FD68 /* HoppyBeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FB4178E9CF103F66B9189F /* Build configuration list for PBXNativeTarget "HoppyBeat" */;
+			buildPhases = (
+				74EB372500E8E3CC8E430A0C /* Sources */,
+				BCBDC7ACF0EEB0166C3D64C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoppyBeat;
+			packageProductDependencies = (
+			);
+			productName = HoppyBeat;
+			productReference = D987891E291862CEF7FB753B /* HoppyBeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904BC029DF0B97E6AC5511A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CC6C1EAB1EC290A92FC48A98 = {
+						TestTargetID = ED1524C27250735BD8F8FD68;
+					};
+					ED1524C27250735BD8F8FD68 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83114ADFB4B749A761D801AA /* Build configuration list for PBXProject "HoppyBeat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A1020BFC9DEEE51483470D0F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2993A540DDCBBA8BE98BA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1524C27250735BD8F8FD68 /* HoppyBeat */,
+				CC6C1EAB1EC290A92FC48A98 /* HoppyBeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCBDC7ACF0EEB0166C3D64C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AFDAC4773F1224280863A0 /* Assets.xcassets in Resources */,
+				041BA4C75EE7E285063E27BF /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A02CBBBB3D6B58AFCB6511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215277B33BBC539520C693AA /* HoppyBeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74EB372500E8E3CC8E430A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1D33C81317443024920E71 /* BeatModel.swift in Sources */,
+				BE8B921CFFDCEA1BA03C31D9 /* Catalog.swift in Sources */,
+				6C8E98D5D9FB40280F79D93E /* CelebrationOverlay.swift in Sources */,
+				F56AB8607EE34D4DA6104709 /* Controls.swift in Sources */,
+				B57329487C6FDDDBEBC69E73 /* FrogView.swift in Sources */,
+				C681D738953575BF02CADDA3 /* HoppyBeatApp.swift in Sources */,
+				0A144C0FF400032644F1C2E2 /* MetronomeEngine.swift in Sources */,
+				8532AEBFA9D158BC14FE8C2E /* PondStage.swift in Sources */,
+				37D3D25223071016CA46429B /* RootView.swift in Sources */,
+				2751330214C8699975BBBB3E /* SoundSynth.swift in Sources */,
+				E672723C62E05D522261FC79 /* StageHUD.swift in Sources */,
+				D73E1AB2FEF69F12F9E9BEFE /* Theme.swift in Sources */,
+				E3C5EF5F0C02EBD8746A4F5A /* VoiceCounter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EAD6874BAAB41F91A4E5EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1524C27250735BD8F8FD68 /* HoppyBeat */;
+			targetProxy = ADF87F0BD853D88AFDA54F8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D1C484B968A544A1229612F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2968EBD7AC36ACB828D9DD39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hoppybeat.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoppyBeat;
+			};
+			name = Release;
+		};
+		2CFB1D16362A9CFDF8D0031D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hoppybeat.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HoppyBeat;
+			};
+			name = Debug;
+		};
+		402A0CAA5E80D9726F8F0F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23HSG82FLE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoppy Beat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hoppybeat;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B6B780C2AAA05386244D630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BEF3C4FDD87A8C8333B510C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23HSG82FLE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hoppy Beat";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.kids-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hoppybeat;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83114ADFB4B749A761D801AA /* Build configuration list for PBXProject "HoppyBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6B780C2AAA05386244D630 /* Debug */,
+				1D1C484B968A544A1229612F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1EEBF28BE023114E22D2206 /* Build configuration list for PBXNativeTarget "HoppyBeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFB1D16362A9CFDF8D0031D /* Debug */,
+				2968EBD7AC36ACB828D9DD39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3FB4178E9CF103F66B9189F /* Build configuration list for PBXNativeTarget "HoppyBeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402A0CAA5E80D9726F8F0F89 /* Debug */,
+				BEF3C4FDD87A8C8333B510C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904BC029DF0B97E6AC5511A9 /* Project object */;
+}
